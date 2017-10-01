@@ -1,0 +1,6 @@
+framework module SAMIM_Map_Kit {
+  umbrella header "SAMIM_Map_Kit-umbrella.h"
+
+  export *
+  module * { export * }
+}

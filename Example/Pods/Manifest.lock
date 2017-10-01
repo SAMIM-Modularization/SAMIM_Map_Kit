@@ -1,0 +1,16 @@
+PODS:
+  - SAMIM_Map_Kit (1.0.0)
+
+DEPENDENCIES:
+  - SAMIM_Map_Kit (from `../`)
+
+EXTERNAL SOURCES:
+  SAMIM_Map_Kit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SAMIM_Map_Kit: 0bfa612d7c07e7331d18571b05b3d4b1a58c00c1
+
+PODFILE CHECKSUM: e3e36f1a0fafa36f5581063ef0f2457c825e880b
+
+COCOAPODS: 1.4.0.beta.1
