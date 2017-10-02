@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1651D698D6747B10670C9A04 /* Pods_SAMIM_Map_Kit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5021B9A74252A7267D0FBE4 /* Pods_SAMIM_Map_Kit_Tests.framework */; };
-		59C541C19E138FC524A155D5 /* Pods_SAMIM_Map_Kit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F521D441872EE774E14F39 /* Pods_SAMIM_Map_Kit_Example.framework */; };
+		54A51A001A3CA7EE5E7EECAF /* libPods-SAMIM_Map_Kit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B85FA831FBC1F78D93526072 /* libPods-SAMIM_Map_Kit_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10F521D441872EE774E14F39 /* Pods_SAMIM_Map_Kit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAMIM_Map_Kit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SAMIM_Map_Kit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAMIM_Map_Kit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,15 +55,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6619F4BD612C77AC67957220 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6619F4BD612C77AC67957220 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75E52822C027B367259C5B42 /* Pods-SAMIM_Map_Kit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMIM_Map_Kit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAMIM_Map_Kit_Example/Pods-SAMIM_Map_Kit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		77473A7B09FCCFB7B252583C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7B42CAAF0913B7DF1BDEE416 /* SAMIM_Map_Kit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SAMIM_Map_Kit.podspec; path = ../SAMIM_Map_Kit.podspec; sourceTree = "<group>"; };
+		77473A7B09FCCFB7B252583C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7B42CAAF0913B7DF1BDEE416 /* SAMIM_Map_Kit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SAMIM_Map_Kit.podspec; path = ../SAMIM_Map_Kit.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE8CB2C3A5721D75A8D431A2 /* Pods-SAMIM_Map_Kit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMIM_Map_Kit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAMIM_Map_Kit_Tests/Pods-SAMIM_Map_Kit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5021B9A74252A7267D0FBE4 /* Pods_SAMIM_Map_Kit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAMIM_Map_Kit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCBC605B2C6300A261097E06 /* Pods-SAMIM_Map_Kit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMIM_Map_Kit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAMIM_Map_Kit_Tests/Pods-SAMIM_Map_Kit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B85FA831FBC1F78D93526072 /* libPods-SAMIM_Map_Kit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAMIM_Map_Kit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC32476CCEDEF4E2B0C2E3D8 /* Pods-SAMIM_Map_Kit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMIM_Map_Kit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAMIM_Map_Kit_Example/Pods-SAMIM_Map_Kit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +74,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				59C541C19E138FC524A155D5 /* Pods_SAMIM_Map_Kit_Example.framework in Frameworks */,
+				54A51A001A3CA7EE5E7EECAF /* libPods-SAMIM_Map_Kit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				1651D698D6747B10670C9A04 /* Pods_SAMIM_Map_Kit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +119,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				10F521D441872EE774E14F39 /* Pods_SAMIM_Map_Kit_Example.framework */,
 				B5021B9A74252A7267D0FBE4 /* Pods_SAMIM_Map_Kit_Tests.framework */,
+				B85FA831FBC1F78D93526072 /* libPods-SAMIM_Map_Kit_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +186,6 @@
 			children = (
 				75E52822C027B367259C5B42 /* Pods-SAMIM_Map_Kit_Example.debug.xcconfig */,
 				DC32476CCEDEF4E2B0C2E3D8 /* Pods-SAMIM_Map_Kit_Example.release.xcconfig */,
-				AE8CB2C3A5721D75A8D431A2 /* Pods-SAMIM_Map_Kit_Tests.debug.xcconfig */,
-				CCBC605B2C6300A261097E06 /* Pods-SAMIM_Map_Kit_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +217,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SAMIM_Map_Kit_Tests" */;
 			buildPhases = (
-				BAF590F4B2E274B3AD03BCAB /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				8314E066A6DF07DE7C04E68D /* [CP] Embed Pods Frameworks */,
-				E9C16EC97A36C4F690CA5F5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +241,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "811528603@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = HP8U3K66H6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -339,61 +333,17 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SAMIM_Map_Kit_Example/Pods-SAMIM_Map_Kit_Example-resources.sh",
+				"${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAMIM_Map_Kit_Example/Pods-SAMIM_Map_Kit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8314E066A6DF07DE7C04E68D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAMIM_Map_Kit_Tests/Pods-SAMIM_Map_Kit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BAF590F4B2E274B3AD03BCAB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SAMIM_Map_Kit_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E9C16EC97A36C4F690CA5F5B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAMIM_Map_Kit_Tests/Pods-SAMIM_Map_Kit_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -533,9 +483,11 @@
 			baseConfigurationReference = 75E52822C027B367259C5B42 /* Pods-SAMIM_Map_Kit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HP8U3K66H6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAMIM_Map_Kit/SAMIM_Map_Kit-Prefix.pch";
 				INFOPLIST_FILE = "SAMIM_Map_Kit/SAMIM_Map_Kit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,9 +500,11 @@
 			baseConfigurationReference = DC32476CCEDEF4E2B0C2E3D8 /* Pods-SAMIM_Map_Kit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HP8U3K66H6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAMIM_Map_Kit/SAMIM_Map_Kit-Prefix.pch";
 				INFOPLIST_FILE = "SAMIM_Map_Kit/SAMIM_Map_Kit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,7 +514,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE8CB2C3A5721D75A8D431A2 /* Pods-SAMIM_Map_Kit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -584,7 +537,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCBC605B2C6300A261097E06 /* Pods-SAMIM_Map_Kit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

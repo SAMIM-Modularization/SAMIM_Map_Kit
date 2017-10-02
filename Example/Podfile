@@ -1,11 +1,18 @@
-use_frameworks!
-
+#use_frameworks!
+#
+#target 'SAMIM_Map_Kit_Example' do
+#  pod 'SAMIM_Map_Kit', :path => '../'
+#
+#  target 'SAMIM_Map_Kit_Tests' do
+#    inherit! :search_paths
+#
+#    
+#  end
 target 'SAMIM_Map_Kit_Example' do
-  pod 'SAMIM_Map_Kit', :path => '../'
-
-  target 'SAMIM_Map_Kit_Tests' do
-    inherit! :search_paths
-
-    
-  end
+    #高德地图相关SDK（无IDFA版）
+    pod 'AMapLocation-NO-IDFA'
+    pod 'AMapSearch-NO-IDFA'
+    pod 'AMap2DMap-NO-IDFA'
+    #MJ刷新
+    pod 'MJRefresh','~> 1.4.6'
 end

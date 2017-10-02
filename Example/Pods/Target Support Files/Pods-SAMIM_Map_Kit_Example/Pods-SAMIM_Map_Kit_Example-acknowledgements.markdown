@@ -1,9 +1,29 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## SAMIM_Map_Kit
+## AMap2DMap-NO-IDFA
 
-Copyright (c) 2017 811528603@qq.com <811528603@qq.com>
+Copyright © 2014 AutoNavi. All Rights Reserved.
+
+
+## AMapFoundation-NO-IDFA
+
+Copyright © 2014 AutoNavi. All Rights Reserved.
+
+
+## AMapLocation-NO-IDFA
+
+Copyright © 2014 AutoNavi. All Rights Reserved.
+
+
+## AMapSearch-NO-IDFA
+
+Copyright © 2014 AutoNavi. All Rights Reserved.
+
+
+## MJRefresh
+
+Copyright (c) 2013-2015 MJRefresh (https://github.com/CoderMJLee/MJRefresh)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
