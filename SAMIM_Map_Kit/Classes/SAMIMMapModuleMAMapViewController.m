@@ -44,7 +44,10 @@ static NSIndexPath *signIndexPath = nil;
     _mapView.zoomLevel = 18;
     [self.view addSubview:_mapView];
     
-    UIImageView *centerPin = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"redPin"]];
+   NSBundle *myBundle = [NSBundle bundleForClass:[self class]];
+    NSString *path = [[ myBundle resourcePath]stringByAppendingPathComponent:@"redPin.png"];
+    
+  UIImageView *centerPin = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:path]];
     centerPin.frame = CGRectMake(CGRectGetMidX(_mapView.frame)-22, CGRectGetMidY(_mapView.frame)-36-64, 44, 72);
     [_mapView addSubview:centerPin];
     
@@ -56,7 +59,9 @@ static NSIndexPath *signIndexPath = nil;
     
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(_mapView.frame.size.width-60, _mapView.frame.size.height-70, 40, 40)];
     [_mapView addSubview:button];
-    [button setImage:[UIImage imageNamed:@"loc"] forState:UIControlStateNormal];
+    NSString *locpath = [[ myBundle resourcePath]stringByAppendingPathComponent:@"loc.png"];
+
+    [button setImage:[UIImage imageWithContentsOfFile:locpath] forState:UIControlStateNormal];
     button.backgroundColor = [UIColor whiteColor];
     [button addTarget:self action:@selector(maptocenter) forControlEvents:UIControlEventTouchUpInside];
     _mapView.logoCenter = CGPointMake(CGRectGetMidX(button.frame), CGRectGetMidY(button.frame)+40-10);

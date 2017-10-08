@@ -1,0 +1,1 @@
+../../../../../SAMIM_Map_Kit/Classes/Cell/SAMIMMapTextTableViewCell.h

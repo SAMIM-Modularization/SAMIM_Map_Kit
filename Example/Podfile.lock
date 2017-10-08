@@ -7,12 +7,22 @@ PODS:
   - AMapSearch-NO-IDFA (5.4.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
   - MJRefresh (1.4.7)
+  - SAMIM_Map_Kit (1.0.0):
+    - AMap2DMap-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - MJRefresh (~> 1.4.6)
 
 DEPENDENCIES:
   - AMap2DMap-NO-IDFA
   - AMapLocation-NO-IDFA
   - AMapSearch-NO-IDFA
   - MJRefresh (~> 1.4.6)
+  - SAMIM_Map_Kit (from `../`)
+
+EXTERNAL SOURCES:
+  SAMIM_Map_Kit:
+    :path: ../
 
 SPEC CHECKSUMS:
   AMap2DMap-NO-IDFA: 01c80e7e93568617b1b1b452cfec71f974f5bc8a
@@ -20,7 +30,8 @@ SPEC CHECKSUMS:
   AMapLocation-NO-IDFA: 9493012d3241a7d551942c7c1e1069b51f295083
   AMapSearch-NO-IDFA: efddeaa3f62f6adb8f0170ebff3d799bcf637ade
   MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  SAMIM_Map_Kit: 3117f77dfb97b2a57fa840dbe96fdfcdaecb264b
 
-PODFILE CHECKSUM: 4e404b6e103985721aa1926ed460a9b3a7c2fefb
+PODFILE CHECKSUM: 9e1de002e704fafe9e35cf1073c00fe4fbe51123
 
 COCOAPODS: 1.4.0.beta.1

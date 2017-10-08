@@ -86,10 +86,12 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SAMIM_Map_Kit/SAMIM_Map_Kit.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SAMIM_Map_Kit/SAMIM_Map_Kit.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

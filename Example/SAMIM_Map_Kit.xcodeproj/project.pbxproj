@@ -336,6 +336,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SAMIM_Map_Kit_Example/Pods-SAMIM_Map_Kit_Example-resources.sh",
 				"${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SAMIM_Map_Kit/SAMIM_Map_Kit.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
